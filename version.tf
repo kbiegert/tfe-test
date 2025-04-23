@@ -11,7 +11,7 @@ terraform {
   cloud {
     organization = "IBMGlobalCatalog"
     workspaces {
-      name = "terraform-variables-sample"
+      name = "tfe-test"
     }
   }
 }
