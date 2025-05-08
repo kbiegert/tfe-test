@@ -27,8 +27,9 @@
                         "diagrams": [
                             {
                                 "diagram": {
-                                    "caption": "A brief caption for this diagram.",
-                                    "url": "The url for where this diagram is located."
+                                    "caption": "Test caption of a diagram",
+                                    "url": "https://raw.githubusercontent.com/kbiegert/tfe-test/refs/tags/0.0.1/images/mychatbot.drawio.svg",
+                                    "type": "image/svg+xml"
                                 },
                                 "description": "A description of this diagram.  It is more detailed than a caption."
                             }
