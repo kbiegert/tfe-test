@@ -1,7 +1,7 @@
 variable "a" {
   description = "A simple string type variable with a default value."
   type        = string
-  default     = "our test"
+  default     = "our test 2"
 }
 variable "b" {
   description = "A simple string type variable with a default value."

@@ -1,0 +1,41 @@
+{
+    "products": [
+        {
+            "name": "tfe-test-da",
+            "label": "TFE Test DA",
+            "product_kind": "solution",
+            "tags": [ ],
+            "keywords": [ ],
+            "short_description": "A brief description of this offering.",
+            "long_description": "A more detailed description of this offering.",
+            "offering_docs_url": "The URL where the documentation is located for this offering.",
+            "offering_icon_url": "The URL where an icon is located to be used with this offering.  A data encoded format may be used instead of a URL.",
+            "flavors": [ 
+                {
+                    "name": "tfe-test-da-standard",
+                    "label": "TFE Test DA Standard",
+                    "install_type": "fullstack",
+                    "working_directory": "../standard",
+                    "architecture": {
+                        "description": "Test DA for TFE testing purposes.",
+                        "features": [
+                            {
+                                "title": "feature title",
+                                "description": "feature value or description."
+                            }
+                        ],
+                        "diagrams": [
+                            {
+                                "diagram": {
+                                    "caption": "A brief caption for this diagram.",
+                                    "url": "The url for where this diagram is located."
+                                },
+                                "description": "A description of this diagram.  It is more detailed than a caption."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

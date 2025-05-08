@@ -7,11 +7,4 @@ terraform {
       version = ">=1.50.0"
     }
   }
-
-  cloud {
-    organization = "IBMGlobalCatalog"
-    workspaces {
-      name = "tfe-test"
-    }
-  }
 }
